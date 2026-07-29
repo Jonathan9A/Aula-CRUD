@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1>Login</h1>
+
+        <a href="/">
+            <button>Início</button>
+        </a>
+    </nav>
+
+    <main class="conteudo">
+        <h2>Entrar no sistema</h2>
+
+        <form action="/login" method="POST" class="formulario">
+            <label>Email:</label>
+            <input type="email" name="email" required>
+
+            <label>Senha:</label>
+            <input type="password" name="senha" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+
+        <p>Ainda não tem login?</p>
+
+        <a href="/cadastro">
+            <button>Cadastrar</button>
+        </a>
+    </main>
+
+</body>
+</html>
